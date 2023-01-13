@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando fontes externas baixadas</title>
+    <style>
+        @font-face {
+            font-family: 'Teste'; 
+            src: url(Pantherdam\ Signature.otf)format('opentype');
+            font-weight: normal;
+            font-style: normal;
+            font-style: normal;
+            /* 
+            Tipos de format()
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat (Apple Advanced Typography)
+            - svg
+            */
+        }
+        body{
+            font-family: 'Teste';
+            font-size: 45px;
+        }
+        h1{
+            font-family: 'Teste';
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores commodi facilis vel nostrum voluptatum odio quidem soluta eos. Voluptas ipsum sunt veniam facilis dolorum minus eaque harum doloremque maxime temporibus?</p>
+</body>
+</html>

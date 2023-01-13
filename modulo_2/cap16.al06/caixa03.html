@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            background-color: aquamarine;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 20px 30px 40px;
+        }
+        nav{
+            background-color: rgb(131, 131, 131);
+        }
+        main{
+            background-color: antiquewhite;
+            padding: 10px;
+            margin: 10px;
+        }
+        article{
+            background-color: aliceblue;
+        }
+        article > aside {
+            background-color: burlywood;
+        }
+        footer{
+            background-color: aqua;
+            padding: 5px;
+            margin: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Brasil novo mundo</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, eligendi nesciunt veniam veritatis impedit id amet asperiores in reprehenderit dolorem a maxime eius ipsa doloremque, consectetur maiores facere reiciendis neque!</p>
+                    
+            </article>
+            <article>
+                <aside>
+                    <p>Artigo escrito por JoãoPedro</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo JoãoPedro</p>
+    </footer>
+
+</body>
+</html>
